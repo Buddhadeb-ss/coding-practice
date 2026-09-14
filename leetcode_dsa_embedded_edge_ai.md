@@ -3,7 +3,7 @@
 ## Arrays
 
 - [x] 1 — Two Sum
-- [ ] 26 — Remove Duplicates from Sorted Array
+- [x] 26 — Remove Duplicates from Sorted Array
 - [ ] 27 — Remove Element
 - [ ] 88 — Merge Sorted Array
 - [ ] 121 — Best Time to Buy and Sell Stock
