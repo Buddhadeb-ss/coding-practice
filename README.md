@@ -1,34 +1,127 @@
-# DSA Roadmap — Embedded Systems Track
+# DSA Roadmap — Embedded Systems + Computer Vision
 
-**Why:** Interviews (even embedded/hardware roles like Qualcomm) often run standard DSA rounds. Scope kept lean — no need for FAANG-level grind.
+## Goal
 
-**Source:** NeetCode 150 (neetcode.io) — filter to topics below only
-**Language:** C (reinforces primary firmware language, not Python)
-**Pace:** 3-4 problems/week, done properly — not rushed. 2 weekday sessions (30-45 min) + 1 weekend session (1 hr, revisit an old problem).
+Build toward:
 
-## Roadmap (in order)
+> **Embedded Systems + Edge AI / Computer Vision**
 
-| Order | Topic | Why | ~Problems |
-|---|---|---|---|
-| 1 | Arrays & Hashing | Foundation for everything else | 8-10 |
-| 2 | Two Pointers | Common pattern, fast to learn | 5 |
-| 3 | Sliding Window | Builds on two pointers | 5 |
-| 4 | Stack | Relevant to embedded (buffers, call stacks) | 5 |
-| 5 | Binary Search | Core algorithmic thinking | 5 |
-| 6 | Linked List | Useful for firmware (memory pools, ring buffers, queues) | 6 |
-| 7 | Trees (traversal only) | BFS/DFS — stop once solid, skip advanced tree problems | 6-8 |
-| 8 | Bit Manipulation | Doubles as embedded skill — do last, pairs well with HAL/register work | 5 |
+DSA is important, but the goal is **not** to become a competitive programmer. The priority is understanding C, memory, data structures, and algorithms well enough to build efficient embedded and CV systems.
 
-**Total:** ~45-50 problems
+---
 
-## Rules for myself
-- Don't move to next topic until Easy problems in current topic are solved without hints
-- Revisit struggled problems after ~1 week (spaced repetition)
-- Understand *why* the solution works — should be able to explain it out loud, redo cold later
-- Firmware work (MCU1 ladder) stays primary — DSA fits in smaller consistent slots, doesn't compete for main energy
+# 1. College DSA Syllabus
 
-## Explicitly skipping (unless a specific company's process demands it)
-Tries, Backtracking, Heap/Priority Queue, Graphs, Advanced Graphs, 1-D & 2-D DP, Greedy, Intervals, Math & Geometry
+### Module 1 — Introduction to C
+- Structure of C programs
+- Identifiers and keywords
+- Data types
+- Input/output
+- Operators and expressions
+- Decision control
+- Loops
+- Functions
+- Arrays
+- Pointers
+- Structures
+- Unions
 
-*These are for general SWE/competitive prep — not high-value for embedded roles. Revisit only if targeting a company known to run heavier DSA regardless of role.*
+**Priority: VERY HIGH**
 
+---
+
+### Module 2 — Data Structures + Stacks
+- Primitive and non-primitive data structures
+- Data structure operations
+- Stack definition and operations
+- Array representation of stacks
+- Stack implementation using arrays
+- Infix → postfix conversion
+- Postfix evaluation
+- Recursion
+  - Factorial
+  - GCD
+  - Fibonacci
+
+**Priority: HIGH**
+
+---
+
+### Module 3 — Queues
+- Queue definition
+- Array representation
+- Linear queue operations
+- Circular queues
+- Circular queue operations
+- Linear and circular queues using arrays
+- Deques
+
+**Priority: VERY HIGH for Embedded**
+
+---
+
+### Module 4 — Linked Lists
+- Linked-list representation in memory
+- Memory allocation
+- Singly linked lists
+- Insertion
+- Deletion
+- Display/traversal
+- Linked stacks and queues
+- Doubly linked lists
+- Doubly linked-list operations
+- Circular linked lists
+
+**Priority: HIGH**
+
+---
+
+### Module 5 — Trees
+- Tree terminology
+- Binary trees
+- Properties of binary trees
+- Array representation
+- Linked representation
+- Tree traversals:
+  - Inorder
+  - Preorder
+  - Postorder
+- Binary Search Trees
+- BST insertion
+- BST deletion
+- BST traversal
+- Searching
+- Expression evaluation using trees
+
+**Priority: MEDIUM**
+
+---
+
+# 2. Recommended Learning Order
+
+The college syllabus order is **correct** and should be followed for academics.
+
+For deeper understanding, use this progression:
+
+```text
+C Fundamentals
+      ↓
+Arrays
+      ↓
+Pointers
+      ↓
+Structures + Dynamic Memory
+      ↓
+Big-O / Complexity
+      ↓
+Recursion
+      ↓
+Stacks
+      ↓
+Queues
+      ↓
+Circular Queues / Ring Buffers
+      ↓
+Linked Lists
+      ↓
+Trees + BST
