@@ -14,7 +14,7 @@
 
 ## Singly Linked Lists
 
--   [ ] 203 --- Remove Linked List Elements
+-   [x] 203 --- Remove Linked List Elements
 -   [ ] 206 --- Reverse Linked List
 -   [ ] 21 --- Merge Two Sorted Lists
 -   [ ] 141 --- Linked List Cycle
