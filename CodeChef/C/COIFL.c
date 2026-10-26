@@ -4,8 +4,23 @@
 // Language: C​
 // Verdict: Accepted
 // Problem URL: https://www.codechef.com/DSAMONDAY026/problems/COIFL
-// Submission ID: 1381677321
-// Submission URL: https://www.codechef.com/viewsolution/1381677321
-// Solved on: 2026-10-26T16:29:38.784Z
+// Solved on: 2026-10-26T16:30:46.861Z
 
-// source not captured automatically - open the solution page and copy it manually
+#include <stdio.h>
+
+int main() {
+    int S;
+    scanf("%d", &S);
+    
+    f[21];
+    f[0] = 1;
+    f[1] = 1;
+    for(int i = 2; i <= S; i++)
+    {
+        f[i] = f[i-1] + f[i-2];
+    }
+    
+    printf("%d\n", f[S]);
+    
+    return 0;
+}
