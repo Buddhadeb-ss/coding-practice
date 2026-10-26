@@ -4,8 +4,30 @@
 // Language: C​
 // Verdict: Accepted
 // Problem URL: https://www.codechef.com/DSAMONDAY026/problems/MINFLIPS
-// Submission ID: 1381664726
-// Submission URL: https://www.codechef.com/viewsolution/1381664726
-// Solved on: 2026-10-26T16:07:37.756Z
+// Solved on: 2026-10-26T16:11:56.702Z
 
-// source not captured automatically - open the solution page and copy it manually
+#include <stdio.h>
+
+int main() {
+int T;
+scanf("%d", &T);
+while(T--)
+{
+    int N, A[1001], sum=0;
+    scanf("%d", &N);
+    for(int i=0; i<N; i++)
+    {
+        scanf("%d", &A[i]);
+    }
+    for(int i=0; i<N; i++)
+    {
+        sum += A[i];
+    }
+    if(sum%2 != 0)
+    printf("-1\n");
+    else
+    printf("%d\n", abs(sum)/2);
+}
+
+}
+
