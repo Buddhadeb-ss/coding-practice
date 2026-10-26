@@ -4,10 +4,8 @@
 // Language: C​
 // Verdict: Accepted
 // Problem URL: https://www.codechef.com/DSAMONDAY026/problems/GOALS
-// Solved on: 2026-10-26T15:41:56.551Z
+// Submission ID: 1381655464
+// Submission URL: https://www.codechef.com/viewsolution/1381655464
+// Solved on: 2026-10-26T15:51:11.546Z
 
-4
-3 3
-2 5
-0 0
-7 7
+// source not captured automatically - open the solution page and copy it manually
