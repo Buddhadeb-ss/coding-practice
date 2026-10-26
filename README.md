@@ -1,127 +1,98 @@
-# DSA Roadmap — Embedded Systems + Computer Vision
+# 🚀 Coding Practice & Problem Solving
 
-## Goal
+[![Sync Status](https://img.shields.io/badge/Sync-Automated%20via%20CP%20Sync-238636?style=for-the-badge&logo=github)](https://github.com/Buddhadeb-ss/coding-practice)
+[![Languages](https://img.shields.io/badge/Primary%20Language-C%20%7C%20C%2B%2B-blue?style=for-the-badge&logo=c)](https://github.com/Buddhadeb-ss/coding-practice)
+[![Platforms](https://img.shields.io/badge/Platforms-CodeChef%20%7C%20LeetCode%20%7C%20VJudge-orange?style=for-the-badge)](https://github.com/Buddhadeb-ss/coding-practice)
 
-Build toward:
-
-> **Embedded Systems + Edge AI / Computer Vision**
-
-DSA is important, but the goal is **not** to become a competitive programmer. The priority is understanding C, memory, data structures, and algorithms well enough to build efficient embedded and CV systems.
+A centralized repository containing verified and accepted competitive programming and Data Structures & Algorithms (DSA) solutions. Submissions are automatically synchronized from online judges directly to this repository upon receiving an **Accepted** verdict.
 
 ---
 
-# 1. College DSA Syllabus
+## 📂 Repository Architecture
 
-### Module 1 — Introduction to C
-- Structure of C programs
-- Identifiers and keywords
-- Data types
-- Input/output
-- Operators and expressions
-- Decision control
-- Loops
-- Functions
-- Arrays
-- Pointers
-- Structures
-- Unions
-
-**Priority: VERY HIGH**
-
----
-
-### Module 2 — Data Structures + Stacks
-- Primitive and non-primitive data structures
-- Data structure operations
-- Stack definition and operations
-- Array representation of stacks
-- Stack implementation using arrays
-- Infix → postfix conversion
-- Postfix evaluation
-- Recursion
-  - Factorial
-  - GCD
-  - Fibonacci
-
-**Priority: HIGH**
-
----
-
-### Module 3 — Queues
-- Queue definition
-- Array representation
-- Linear queue operations
-- Circular queues
-- Circular queue operations
-- Linear and circular queues using arrays
-- Deques
-
-**Priority: VERY HIGH for Embedded**
-
----
-
-### Module 4 — Linked Lists
-- Linked-list representation in memory
-- Memory allocation
-- Singly linked lists
-- Insertion
-- Deletion
-- Display/traversal
-- Linked stacks and queues
-- Doubly linked lists
-- Doubly linked-list operations
-- Circular linked lists
-
-**Priority: HIGH**
-
----
-
-### Module 5 — Trees
-- Tree terminology
-- Binary trees
-- Properties of binary trees
-- Array representation
-- Linked representation
-- Tree traversals:
-  - Inorder
-  - Preorder
-  - Postorder
-- Binary Search Trees
-- BST insertion
-- BST deletion
-- BST traversal
-- Searching
-- Expression evaluation using trees
-
-**Priority: MEDIUM**
-
----
-
-# 2. Recommended Learning Order
-
-The college syllabus order is **correct** and should be followed for academics.
-
-For deeper understanding, use this progression:
+Solutions are structured cleanly by platform and categorized either by programming language or problem difficulty:
 
 ```text
-C Fundamentals
-      ↓
-Arrays
-      ↓
-Pointers
-      ↓
-Structures + Dynamic Memory
-      ↓
-Big-O / Complexity
-      ↓
-Recursion
-      ↓
-Stacks
-      ↓
-Queues
-      ↓
-Circular Queues / Ring Buffers
-      ↓
-Linked Lists
-      ↓
-Trees + BST
+coding-practice/
+├── CodeChef/                       # CodeChef solutions (organized by language)
+│   ├── README.md                   # Platform documentation & conventions
+│   ├── C/                          # C solutions (.c)
+│   ├── Cpp/                        # C++ solutions (.cpp)
+│   ├── Python/                     # Python solutions (.py)
+│   └── Java/                       # Java solutions (.java)
+│
+├── leetcode/                       # LeetCode solutions (organized by difficulty)
+│   ├── Easy/                       # Easy problem solutions
+│   ├── Medium/                     # Medium problem solutions
+│   └── Hard/                       # Hard problem solutions
+│
+└── vjudge/                         # Virtual Judge solutions (organized by problem set)
+    └── <Contest-or-Problem>/       # Individual problem submissions
+```
+
+---
+
+## 📊 Synchronized Solutions Overview
+
+### 🏆 CodeChef
+| Problem Code | Problem Title | Language | Solution Path |
+| :--- | :--- | :---: | :--- |
+| `CWC23QUALIF` | Cricket World Cup Qualifier | C | [`CodeChef/C/CWC23QUALIF.c`](CodeChef/C/CWC23QUALIF.c) |
+| `MOBKUN` | Mob! | C | [`CodeChef/C/MOBKUN.c`](CodeChef/C/MOBKUN.c) |
+| `PAJAPONG` | Ping Paja Pong | C | [`CodeChef/C/PAJAPONG.c`](CodeChef/C/PAJAPONG.c) |
+
+### 💡 LeetCode
+| Problem Name | Difficulty | Language | Solution Path |
+| :--- | :---: | :---: | :--- |
+| `1. Two Sum` | Easy | C | [`leetcode/Easy/two-sum.c`](leetcode/Easy/two-sum.c) |
+| `9. Palindrome Number` | Easy | C | [`leetcode/Easy/palindrome-number.c`](leetcode/Easy/palindrome-number.c) |
+| `26. Remove Duplicates from Sorted Array` | Easy | C | [`leetcode/Easy/remove-duplicates-from-sorted-array.c`](leetcode/Easy/remove-duplicates-from-sorted-array.c) |
+| `203. Remove Linked List Elements` | Easy | C | [`leetcode/Easy/remove-linked-list-elements.c`](leetcode/Easy/remove-linked-list-elements.c) |
+
+### 🌐 Virtual Judge (VJudge)
+| Submission ID | Problem / Contest | Language | Solution Path |
+| :--- | :--- | :---: | :--- |
+| `72663972` | Group Assignment (CodeChef GROUPASSGN) | C | [`vjudge/Group-Assignment---CodeChef-GROUPASSGN---Virtual-Judge/72663972.c`](vjudge/Group-Assignment---CodeChef-GROUPASSGN---Virtual-Judge/72663972.c) |
+| `72808987` | Ping Paja Pong (CodeChef PAJAPONG) | C | [`vjudge/Ping-Paja-Pong---CodeChef-PAJAPONG---Virtual-Judge/72808987.c`](vjudge/Ping-Paja-Pong---CodeChef-PAJAPONG---Virtual-Judge/72808987.c) |
+| `72531381` | Ratio By 2 (CodeChef RATIO2) | C | [`vjudge/Ratio-By-2---CodeChef-RATIO2---Virtual-Judge/72531381.c`](vjudge/Ratio-By-2---CodeChef-RATIO2---Virtual-Judge/72531381.c) |
+| `73412068` | Schrodinger Smiley (CodeChef SMILEY) | C | [`vjudge/Schrodinger-Smiley---CodeChef-SMILEY---Virtual-Judge/73412068.c`](vjudge/Schrodinger-Smiley---CodeChef-SMILEY---Virtual-Judge/73412068.c) |
+
+---
+
+## ⚡ Automated Sync Workflow
+
+All submissions are captured and pushed via the **CP Sync** extension:
+
+1. **Submission & Verdict Detection**: When a solution is submitted on CodeChef, LeetCode, or VJudge, the extension monitors the judgment result.
+2. **Accepted Verification**: Once verified as **Accepted** (or 100% test cases passed), the submission is triggered for synchronization.
+3. **Metadata Enrichment**: Original source code is extracted along with problem metadata (Problem Code, Problem Name, Platform, Problem URL, Submission ID/URL, and Timestamp).
+4. **Language-Aware Commenting**: Appropriate header comment syntax is dynamically applied (`//` for C/C++/Java, `#` for Python/Shell, `--` for SQL).
+5. **Git Commit & Push**: Changes are committed directly to branch `main` with clear, descriptive commit messages.
+6. **Smart Deduplication**: Identical code resubmissions are skipped to keep git history clean, while modified/optimized solutions update the file.
+
+---
+
+## 📝 Solution Header Format
+
+Every synchronized file begins with a standardized comment header block:
+
+```c
+// Problem: Number Mirror
+// Problem Code: START01
+// Platform: CodeChef
+// Language: C
+// Verdict: Accepted
+// Problem URL: https://www.codechef.com/problems/START01
+// Submission ID: 12345678
+// Submission URL: https://www.codechef.com/viewsolution/12345678
+// Solved on: 2026-10-26T14:55:00.000Z
+```
+
+---
+
+## 🛠️ Tech Stack & Conventions
+
+- **Primary Languages**: C (C99 / C11), C++ (C++17 / C++20), Python 3
+- **Focus Areas**: Memory management, Pointer arithmetic, Core Data Structures (Arrays, Linked Lists, Stacks, Queues, Trees), Algorithms
+- **Branch**: `main`
+- **Target Repository**: [Buddhadeb-ss/coding-practice](https://github.com/Buddhadeb-ss/coding-practice)
