@@ -4,8 +4,29 @@
 // Language: C​
 // Verdict: Accepted
 // Problem URL: https://www.codechef.com/DSAMONDAY026/problems/GOALS
-// Submission ID: 1381655464
-// Submission URL: https://www.codechef.com/viewsolution/1381655464
-// Solved on: 2026-10-26T15:51:11.546Z
+// Solved on: 2026-10-26T15:52:55.554Z
 
-// source not captured automatically - open the solution page and copy it manually
+#include <stdio.h>
+
+int main() {
+    int test;
+	scanf("%d", &test);
+    while(test--)
+    {
+        int a=0, b=0;
+        scanf("%d %d", &a, &b);
+        if(a==0|| b==0)
+        {
+            printf("NO\n");
+        }
+        else if (a==b)
+        {
+            printf("YES\n");
+        }
+        else 
+        printf("NO\n");
+    }
+    
+    
+}
+
